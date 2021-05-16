@@ -81,6 +81,11 @@ class FinalizarLeilaoServiceTest {
 		} catch (Exception e) {}
 	}
 
+	@Test
+	void testeJenkins(){
+		Assert.assertTrue(Boolean.TRUE);
+	}
+
 	private List<Leilao> leiloes() {
 		List<Leilao> lista = new ArrayList<>();
 		
