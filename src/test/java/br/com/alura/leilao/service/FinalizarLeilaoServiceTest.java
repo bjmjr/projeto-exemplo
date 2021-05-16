@@ -86,6 +86,11 @@ class FinalizarLeilaoServiceTest {
 		Assert.assertTrue(Boolean.TRUE);
 	}
 
+	@Test
+	void testeFalhaJenkins(){
+		Assert.assertTrue(Boolean.FALSE);
+	}
+	
 	private List<Leilao> leiloes() {
 		List<Leilao> lista = new ArrayList<>();
 		
